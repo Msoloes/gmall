@@ -1,0 +1,14 @@
+//配置别名,这个文件回合默认配置文件合并
+module.exports={
+    configureWebpack:{
+        resolve:{
+            alias:{
+                'assets':'@/assets',
+                'commonJS':'@/commonJS',
+                'components':'@/components',
+                'network':'@/network',
+                'views':'@/views'
+            }
+        }
+    }
+}
